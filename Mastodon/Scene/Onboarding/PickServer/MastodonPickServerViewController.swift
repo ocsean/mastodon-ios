@@ -40,7 +40,6 @@ final class MastodonPickServerViewController: UIViewController, NeedsDependency 
     let tableView: UITableView = {
         let tableView = ControlContainableTableView()
         tableView.rowHeight = UITableView.automaticDimension
-        tableView.separatorStyle = .none
         tableView.backgroundColor = .clear
         tableView.keyboardDismissMode = .onDrag
         if #available(iOS 15.0, *) {
